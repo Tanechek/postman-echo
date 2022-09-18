@@ -1,0 +1,11 @@
+image: Ubuntu  # образ для сборки
+
+stack: jdk 11
+
+branches:
+  only:
+    - main  # ветка git
+
+build_script:
+  -  chmod +x gradlew
+  - ./gradlew build
