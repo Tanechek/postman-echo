@@ -18,6 +18,7 @@
       "type": "object"
     },
     "json": {
+      "type": "integer"
     },
     "url": {
       "type": "string"
